@@ -1,1 +1,1 @@
-# Kolor pls don't steal this :)
+pls don't steal this :)
