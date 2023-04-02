@@ -1,0 +1,78 @@
+KOLOR V1
+CONSOLE FUNCTIONS
+print<str>
+printLn<str>
+deleteLn<int>
+tcXp<get/set>
+tcYp<get/set>
+clrCnsl
+bgtc<clr/int>
+fgtc<clr/int>
+
+GLOBAL FUNCTIONS
+if<bool>
+else
+else if<logic>
+for<int,int>
+while<bool>
+end
+return<any>
+func<str>
+gtf<func>
+goto
+
+MORE FUNCTIONS
+load<filename.kh>
+unload<filename.kh>
+
+EXECAPE KEYS
+%a
+%b
+%r
+%n
+%t
+%v<varType>,<var>
+%%
+%'
+%"
+
+GUI FUNCTIONS
+cursorX
+cursorY
+keydown
+keyPress
+keyUp
+clrscreen
+drwLn<int,int,int,int,clr>
+drwImage<filename,int,int,int,int>
+
+VARIABLE FUNCTIONS
+newVar<str> 'as' <varType>
+var<var>
+deleteVar
+as
+to<varType>
+int
+str
+bool
+i1d
+i2d
+i3d
+s1d
+s2d
+s3d
+b1d
+b2d
+b3d
+
+STORAGE FUNCTIONS
+createFile<str>
+saveToFile<any>
+deleteFile<str>
+moveFile<str,str>
+createFolder<str>
+deleteFolder<str>
+moveFolder<str,str>
+zipFolder<str,str>
+listFolders<str,bool,bool>
+listFiles<str>
