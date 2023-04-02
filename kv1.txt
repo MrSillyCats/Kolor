@@ -1,4 +1,5 @@
 KOLOR V1
+
 CONSOLE FUNCTIONS
 print<str>
 printLn<str>
@@ -20,6 +21,9 @@ return<any>
 func<str>
 gtf<func>
 goto
+keydown
+keyPress
+keyUp
 
 MORE FUNCTIONS
 load<filename.kh>
@@ -39,9 +43,6 @@ EXECAPE KEYS
 GUI FUNCTIONS
 cursorX
 cursorY
-keydown
-keyPress
-keyUp
 clrscreen
 drwLn<int,int,int,int,clr>
 drwImage<filename,int,int,int,int>
