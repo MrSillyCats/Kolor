@@ -55,16 +55,16 @@ as
 to<varType>
 int
 str
-bool
-i1d
-i2d
-i3d
-s1d
-s2d
-s3d
-b1d
-b2d
-b3d
+dub
+//i1d
+//i2d
+//i3d
+//s1d
+//s2d
+//s3d
+//d1d
+//d2d
+//d3d
 
 STORAGE FUNCTIONS
 createFile<str>
