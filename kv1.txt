@@ -1,79 +1,80 @@
 KOLOR V1
 
 CONSOLE FUNCTIONS
-print<str>
-printLn<str>
-deleteLn<int>
-tcXp<get/set>
-tcYp<get/set>
-clrCnsl
-bgtc<clr/int>
-fgtc<clr/int>
+print<str>             | Prints a string to the screen
+printLn<str>           | Prints a string to the screen and creates a new line
+deleteLn<int>          | Deletes all the chars from the selected line
+tcXp<get/set>          | tcXp is a variable that controls where text cursor's X position is. You can set text cursor's X position or get text cursor's X position
+tcYp<get/set>          | tcYp is a variable that controls where text cursor's Y position is. You can set text cursor's Y position or get text cursor's Y position
+clrCnsl                | Clears the console
+bgtc<get/set>          | Gets or sets the background text color
+fgtc<get/set>          | Gets or sets the foreground text color
 
 GLOBAL FUNCTIONS
-if<bool>
-else
-else if<logic>
-for<int,int>
-while<bool>
-end
-return<any>
-func<str>
-gtf<func>
-goto
-keydown
-keyPress
-keyUp
+if<bool>               | Used for logic
+else                   | Runs when the "if" or "else if" function it is connected to gets the value "false"
+else if<bool>          | Runs when the "if" or "else if" function it is connected to gets the value "false" and then does what the "if" function does 
+for<int,int,math>      | Repeats until the wanted value is reached
+while<bool>            | Repeats running the code until the bool value is "false"
+end                    | Ends that function
+return<any>            | Returns a value
+func<str>              | Creates a custom function and runs the code inside of it
+gtf<func>              | Goes to a custom function
+goto<int>              | Goes to the selected line in the program
+keydown                | Detects when the selected key is down
+keyPress               | Detects when the selected key is pressed
+keyUp                  | Detects when the selected key is up
 
 MORE FUNCTIONS
-load<filename.kh>
-unload<filename.kh>
+load<filename.kh>      | Loads the selected Kolor Header file to the program
+unload<filename.kh>    | Unloads the selected Kolor Header file from the program
 
 EXECAPE KEYS
-%a
-%b
-%r
-%n
-%t
-%v<varType>,<var>
-%%
-%'
-%"
+%a                     |
+%b                     |
+%r                     |
+%n                     | Creates a new line
+%t                     | Creates a tab
+%v<varType>,<var>      | Uses a variable for input is instead of text
+%%                     | Allows you to use the char %
+%'                     | Allows you to use the char '
+%"                     | Allows you to use the char "
 
 GUI FUNCTIONS
-cursorX
-cursorY
-clrscreen
-drwLn<int,int,int,int,clr>
-drwImage<filename,int,int,int,int>
+cursorX<get/set>       | Gets or sets the mouse cursor's X position 
+cursorY<get/set>       | Gets or sets the mouse cursor's Y position
+clrscreen              | Clears the graphical screen
+drwLn<int,int,int,int,clr>    | Draws a line to the selected points in the selected color
+drwImage<filename,int,int,int,int>    | Draws a image on the screen
 
 VARIABLE FUNCTIONS
-newVar<str> 'as' <varType>
-var<var>
-deleteVar
-as
-to<varType>
-int
-str
-dub
-//i1d
-//i2d
-//i3d
-//s1d
-//s2d
-//s3d
-//d1d
-//d2d
-//d3d
+newVar<str>            | Creates a new variable
+var<var>               | edits a variables value
+deleteVar              | Deletes the selected variable
+as                     | Sets the selected variable's type
+to<varType>            | Converts a variables value to the selected type
+int                    | Used for intager values
+str                    | Used for string values
+flt                    | Used for float values
+//i1d                  | Used for 1D int arrays
+//i2d                  | Used for 2D int arrays
+//i3d                  | Used for 3D int arrays
+//s1d                  | Used for 1D string arrays
+//s2d                  | Used for 2D string arrays
+//s3d                  | Used for 3D string arrays
+//f1d                  | Used for 1D float arrays
+//f2d                  | Used for 2D float arrays
+//f3d                  | Used for 3D float arrays
 
 STORAGE FUNCTIONS
-createFile<str>
-saveToFile<any>
-deleteFile<str>
-moveFile<str,str>
-createFolder<str>
-deleteFolder<str>
-moveFolder<str,str>
-zipFolder<str,str>
-listFolders<str,bool,bool>
-listFiles<str>
+createFile<str>        | Creates a file
+saveToFile<any>        | Saves a value to the selected file
+deleteFile<str>        | Deletes the selected file
+moveFile<str,str>      | Moves the selected File to a new directory 
+createFolder<str>      | Creates a folder
+deleteFolder<str>      | Deletes the selected directory
+moveFolder<str,str>    | Moves the selected directory to a new directory
+zipFolder<str,str>     | Zips the selected directory
+listFolders<str,bool,bool>     | List the selected directory's directorys, sub directorys, and sub sub directorys
+listFiles<str>         | List all the files in the selected directory
+
