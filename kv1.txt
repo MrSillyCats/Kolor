@@ -30,9 +30,9 @@ load<filename.kh>      | Loads the selected Kolor Header file to the program
 unload<filename.kh>    | Unloads the selected Kolor Header file from the program
 
 EXECAPE KEYS
-%a                     |
-%b                     |
-%r                     |
+%a                     | Creates a beep sound
+%b                     | 
+%r                     | Doesn't use the text behind it
 %n                     | Creates a new line
 %t                     | Creates a tab
 %v<varType>,<var>      | Uses a variable for input is instead of text
