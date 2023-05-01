@@ -7,8 +7,8 @@ deleteLn<int>          | Deletes all the chars from the selected line
 tcXp<get/set>          | tcXp is a variable that controls where text cursor's X position is. You can set text cursor's X position or get text cursor's X position
 tcYp<get/set>          | tcYp is a variable that controls where text cursor's Y position is. You can set text cursor's Y position or get text cursor's Y position
 clrCnsl                | Clears the console
-bgtc<get/set>          | Gets or sets the background text color
-fgtc<get/set>          | Gets or sets the foreground text color
+bgTc<get/set>          | Gets or sets the background text color
+fgTc<get/set>          | Gets or sets the foreground text color
 
 GLOBAL FUNCTIONS
 if<bool>               | Used for logic
@@ -22,16 +22,13 @@ func<str>              | Creates a custom function and runs the code inside of i
 gtf<func>              | Goes to a custom function
 goto<int>              | Goes to the selected line in the program
 keydown                | Detects when the selected key is down
-keyPress               | Detects when the selected key is pressed
-keyUp                  | Detects when the selected key is up
 
 MORE FUNCTIONS
 load<filename.kh>      | Loads the selected Kolor Header file to the program
-unload<filename.kh>    | Unloads the selected Kolor Header file from the program
 
 EXECAPE KEYS
 %a                     | Creates a beep sound
-%b                     | 
+%b                     | Stops using the rest of the string
 %r                     | Doesn't use the text behind it
 %n                     | Creates a new line
 %t                     | Creates a tab
@@ -51,20 +48,11 @@ VARIABLE FUNCTIONS
 newVar<str>            | Creates a new variable
 var<var>               | edits a variables value
 deleteVar              | Deletes the selected variable
-as                     | Sets the selected variable's type
+as<varType>            | Sets the selected variable's type
 to<varType>            | Converts a variables value to the selected type
 int                    | Used for intager values
 str                    | Used for string values
 flt                    | Used for float values
-//i1d                  | Used for 1D int arrays
-//i2d                  | Used for 2D int arrays
-//i3d                  | Used for 3D int arrays
-//s1d                  | Used for 1D string arrays
-//s2d                  | Used for 2D string arrays
-//s3d                  | Used for 3D string arrays
-//f1d                  | Used for 1D float arrays
-//f2d                  | Used for 2D float arrays
-//f3d                  | Used for 3D float arrays
 
 STORAGE FUNCTIONS
 createFile<str>        | Creates a file
@@ -77,4 +65,3 @@ moveFolder<str,str>    | Moves the selected directory to a new directory
 zipFolder<str,str>     | Zips the selected directory
 listFolders<str,bool,bool>     | List the selected directory's directorys, sub directorys, and sub sub directorys
 listFiles<str>         | List all the files in the selected directory
-
