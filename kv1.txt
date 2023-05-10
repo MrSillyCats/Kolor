@@ -32,7 +32,7 @@ EXECAPE KEYS
 %r                     | Doesn't use the text behind it
 %n                     | Creates a new line
 %t                     | Creates a tab
-%v<varType>,<var>      | Uses a variable for input is instead of text
+%v<var>,<varType>%     | Uses a variable for input is instead of text
 %%                     | Allows you to use the char %
 %'                     | Allows you to use the char '
 %"                     | Allows you to use the char "
