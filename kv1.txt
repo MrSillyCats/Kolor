@@ -6,16 +6,16 @@ printLn<str>           | Prints a string to the screen and creates a new line
 deleteLn<int>          | Deletes all the chars from the selected line
 tcXp<get/set>          | tcXp is a variable that controls where text cursor's X position is. You can set text cursor's X position or get text cursor's X position
 tcYp<get/set>          | tcYp is a variable that controls where text cursor's Y position is. You can set text cursor's Y position or get text cursor's Y position
-clrCnsl                | Clears the console
+cls                    | Clears the console
 bgTc<get/set>          | Gets or sets the background text color
 fgTc<get/set>          | Gets or sets the foreground text color
 
 GLOBAL FUNCTIONS
-if<bool>               | Used for logic
+if<bool/int>               | Used for logic
 else                   | Runs when the "if" or "else if" function it is connected to gets the value "false"
-else if<bool>          | Runs when the "if" or "else if" function it is connected to gets the value "false" and then does what the "if" function does 
-for<int,int,math>      | Repeats until the wanted value is reached
-while<bool>            | Repeats running the code until the bool value is "false"
+else if<bool/int>          | Runs when the "if" or "else if" function it is connected to gets the value "false" and then does what the "if" function does 
+for<int,int>      | Repeats until the wanted value is reached
+while<bool/int>            | Repeats running the code until the bool value is "false"
 end                    | Ends that function
 return<any>            | Returns a value
 func<str>              | Creates a custom function and runs the code inside of it
@@ -40,7 +40,7 @@ EXECAPE KEYS
 GUI FUNCTIONS
 cursorX<get/set>       | Gets or sets the mouse cursor's X position 
 cursorY<get/set>       | Gets or sets the mouse cursor's Y position
-clrscreen              | Clears the graphical screen
+clsg                   | Clears the graphical screen
 drwLn<int,int,int,int,clr>    | Draws a line to the selected points in the selected color
 drwImage<filename,int,int,int,int>    | Draws a image on the screen
 
@@ -48,11 +48,6 @@ VARIABLE FUNCTIONS
 newVar<str>            | Creates a new variable
 var<var>               | edits a variables value
 deleteVar              | Deletes the selected variable
-as<varType>            | Sets the selected variable's type
-to<varType>            | Converts a variables value to the selected type
-int                    | Used for intager values
-str                    | Used for string values
-flt                    | Used for float values
 
 STORAGE FUNCTIONS
 createFile<str>        | Creates a file
