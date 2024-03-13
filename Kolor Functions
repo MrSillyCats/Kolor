@@ -24,9 +24,9 @@
  * NewVar <VarName>  --A Unsigned varible
  * NewVar <VarName> Array --A unsigned varible array
  * NewVar <VarName> <Type> --A varible with a type but no data
- * NewVar <VarName> Array As <Type> --A varible array with a type but no data
+ * NewVar <VarName> <Type> As Array --A varible array with a type but no data
  * NewVar <VarName> <Type> = <Data> --A varible with a type and data
- * NewVar <VarName> Array As <Type> = <Array> --A varible array with a type and data
+ * NewVar <VarName> <Type> As Array = <Array> --A varible array with a type and data
  * 
  * Var <Varible> <Math> <Data/Variable> --Changes that varible's data
  * Var <Varible>[<Int/Varible>] <Math> <Data/Variable> --Changes the data at that location
