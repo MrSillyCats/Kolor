@@ -32,7 +32,7 @@
  * Var <Varible>[<Int/Varible>] <Math> <Data/Variable> --Changes the data at that location
  * Var <VaribleArray> <Math> <Data/Varible/VariableArray> --Will do math functions with each item or do a math function with all the items
  * 
- * <Varible> As <Type> --Temporarily converts that varible to another type
+ * <Varible> As <Type> --Temporarily converts that varible to another type unless it's being used for defining a Array's type
  * Asign <Variable> <Type> --Changes the variable's type
  * Asign <Variable> Array As <Type> --Changes the variable array's type
  * 
